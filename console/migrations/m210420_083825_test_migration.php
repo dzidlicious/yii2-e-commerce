@@ -3,9 +3,9 @@
 use yii\db\Migration;
 
 /**
- * Class m210401_063830_create_products_tables
+ * Class m210420_083825_test_migration
  */
-class m210401_063830_create_products_tables extends Migration
+class m210420_083825_test_migration extends Migration
 {
     /**
      * {@inheritdoc}
@@ -20,7 +20,7 @@ class m210401_063830_create_products_tables extends Migration
      */
     public function safeDown()
     {
-        echo "m210401_063830_create_products_tables cannot be reverted.\n";
+        echo "m210420_083825_test_migration cannot be reverted.\n";
 
         return false;
     }
@@ -34,7 +34,7 @@ class m210401_063830_create_products_tables extends Migration
 
     public function down()
     {
-        echo "m210401_063830_create_products_tables cannot be reverted.\n";
+        echo "m210420_083825_test_migration cannot be reverted.\n";
 
         return false;
     }
