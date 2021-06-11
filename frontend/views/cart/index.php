@@ -29,7 +29,7 @@
                          alt="<?php echo $item['name']?>"></td>
                 <td><?php echo $item['price']?></td>
                 <td>
-                    <input type="number" class="form-control item-quantity" style="width: 60px" value="<?php echo $item['quantity']?>">
+                    <input type="number" min="1" class="form-control item-quantity" style="width: 60px" value="<?php echo $item['quantity']?>">
                 </td>
                 <td><?php echo $item['total_price']?></td>
                 <td><?php echo \yii\helpers\Html::a('Delete', ['/cart/delete', 'id' => $item['id']], [

@@ -168,6 +168,7 @@ class CartController extends \frontend\base\Controller
             }
 
         }
+        return CartItem::getTotalQuantityFromUser(currentUserId());
     }
 
 

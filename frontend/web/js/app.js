@@ -26,8 +26,8 @@ $(function (){
             method: 'post',
             url: $tr.data('url'),
             data: {id, quantity: $this.val()},
-            success: function(){
-                console.log(arguments)
+            success: function(totalQuantity){
+                $cartQuantity.text(totalQuantity)
             }
         })
     })
