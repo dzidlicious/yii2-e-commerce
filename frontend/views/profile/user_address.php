@@ -13,7 +13,7 @@ use yii\bootstrap4\Html;
     <div class="alert alert-success">
     Your address was successfully updated.
     </div>
-    
+<!-- --><?php //endif ?>
 
 <?php $addressForm = ActiveForm::begin([
     'action' => ['/profile/update_address'],
